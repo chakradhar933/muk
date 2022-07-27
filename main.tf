@@ -8,7 +8,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "edstem124321"
+    bucket = "edstem124321-backend256"
     key = "edstem.tfstate"
     region = "us-east-2"
   }
